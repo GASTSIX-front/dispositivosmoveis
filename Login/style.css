@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/background.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 1194px;
+    width: 834px;
+    background-size: cover;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box_login {
+    background: rgba(0, 86, 115, 0.09);
+    border: 0.3px solid #C8D5DC;
+    box-shadow: 0px 4px 19px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    color: #C8D5DC;
+    width: 440px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box_login button {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0073B0 100%);
+    border: 1px solid #C8D5DC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #C8D5DC;
+    width: 40%;
+    height: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_login h2 {
+    text-transform: uppercase;
+
+}
+
+.preenchimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 300px;
+}
+
+.usuario label, .senha label{
+    margin-bottom: 15px;
+}
+
+input {
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 13px #000000);
+    border-radius: 5px;
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    color: #FFFFFF;
+}
