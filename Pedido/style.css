@@ -28,7 +28,12 @@ span{
 
 .seq_no{
     display: flex;
-    justify-content: space-evenly;
+}
+
+.info_principal{
+    align-items: center;
+    padding: 5px;
+    display: flex;
 }
 
 .info{
